@@ -1,7 +1,6 @@
 export const FormatDates = () => {
     const date = new Date();
-    console.log(date);
+    return date.toLocaleString();
     
 }
 
-FormatDates();
